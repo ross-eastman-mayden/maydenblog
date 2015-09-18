@@ -1,0 +1,35 @@
+# Site settings
+title: Mayden Academy - A Blog About the Experiences of a Trainee Developer
+email: ross.eastman@mayden.co.uk
+description: A blog about my experiences as a trainee dev.
+url: "http://infinite-coding-monkeys.co.uk" # the base hostname & protocol for your site
+twitter_username: rossemayden
+github_username: ross-eastman-mayden
+paginate: 3
+
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      author: Ross Eastman
+      layout: "post"
+      category: Mayden Academy
+      comments: true
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "page"
+
+
+
+
+
