@@ -3,6 +3,7 @@ title: Mayden Academy - A Blog About the Experiences of a Trainee Developer
 email: ross.eastman@mayden.co.uk
 description: A blog about my experiences as a trainee dev.
 url: "http://infinite-coding-monkeys.co.uk" # the base hostname & protocol for your site
+baseurl: '/maydenblog'
 twitter_username: rossemayden
 github_username: ross-eastman-mayden
 paginate: 3
